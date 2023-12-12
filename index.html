@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <section class="screen">
+            0
+        </section>
+
+        <section class="calc-buttons">
+            <div class="calc-button-row">
+                <button class="calc-button double" onclick="fromStart()">
+                    C
+                </button>
+                <button class="calc-button" onclick="erasePrevious()">
+                    &larr;
+                </button>
+                <button class="calc-button" onclick="arrayNumber(' / ')">
+                    &divide;
+                </button>
+            </div>
+            <div class="calc-button-row">
+                    <button class="calc-button" onclick="arrayNumber(7)">
+
+                        7
+                    </button>
+                    <button class="calc-button" onclick="arrayNumber(8)">
+                        8
+                    </button>
+                    <button class="calc-button" onclick="arrayNumber(9)">
+                        9
+                    </button>
+                    <button class="calc-button" onclick="arrayNumber(' * ')">
+                        &times;
+                    </button>
+
+            </div>
+
+            <div class="calc-button-row">
+                <button class="calc-button" onclick="arrayNumber(4)">
+                    4
+                </button>
+                <button class="calc-button" onclick="arrayNumber(5)">
+                    5
+                </button>
+                <button class="calc-button" onclick="arrayNumber(6)">
+                    6
+                </button>
+                <button class="calc-button" onclick="arrayNumber(' - ')">
+                    &minus;
+                </button>
+            </div>
+            <div class="calc-button-row">
+                <button class="calc-button" onclick="arrayNumber(1)">
+                    1
+                </button>
+                <button class="calc-button" onclick="arrayNumber(2)">
+                    2
+                </button>
+                <button class="calc-button" onclick="arrayNumber(3)">
+                    3
+                </button>
+                <button class="calc-button" onclick="arrayNumber(' + ')">
+                    &plus;
+                </button>
+            </div>
+            <div class="calc-button-row">
+                <button class="calc-button triple" onclick="arrayNumber(0)">
+                    0
+                </button>
+                <button class="calc-button" onclick="equals()">
+                    &equals;
+                </button>
+
+            </div>
+
+            
+
+        </section>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
